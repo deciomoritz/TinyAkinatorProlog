@@ -1,0 +1,83 @@
+verifique(pernalonga)   :- pernalonga, !.
+verifique(patolino)     :- patolino, !.
+verifique(eufrazino)     :- eufrazino, !.
+verifique(marvin)     :- marvin, !.
+verifique(coiote)     :- coiote, !.
+verifique(papaleguas)     :- papaleguas, !.
+verifique(ligeirinho)     :- ligeirinho, !.
+verifique(cerebro)     :- cerebro, !.
+verifique(sam)     :- sam, !.
+verifique(cientista)     :- cientista, !.
+verifique(felicia)     :- felicia, !.
+verifique(hortelino)     :- hortelino, !.
+verifique(passaro_marciano)     :- passaro_marciano, !.
+
+pernalonga :-
+	assegure('é um animal'),
+	assegure('é orelhudo').
+
+patolino :- 
+	assegure('é um animal'),
+	assegure('tem penas'),
+	assegure('é azarado').
+
+eufrazino :- 
+	assegure('é humano'),
+	assegure('é mau'),
+	assegure('usa armas'),
+	assegure('é ruivo').
+
+marvin :-
+	assegure('é alienígena'),
+	assegure('é mau'),
+	assegure('usa capacete').
+
+coiote :-
+	assegure('é um animal'),
+	assegure('é mau'),
+	assegure('é esperto'),
+	assegure('é azarado').
+
+papaleguas :-
+	assegure('é um animal'),
+	assegure('tem penas'),
+	assegure('é veloz').
+
+ligeirinho :-
+	assegure('é um animal'),
+	assegure('é um rato'),
+	assegure('é veloz').
+
+cerebro :-
+	assegure('é um animal'),
+	assegure('é mau'),
+	assegure('é um rato'),
+	assegure('é esperto'),
+	assegure('tem um irmão').
+
+sam :-
+	assegure('é um animal'),
+	assegure('é ruivo'),
+	assegure('cuida de um rebanho').
+
+cientista :-
+	assegure('é humano'),
+	assegure('é esperto'),
+	assegure('é mau'),
+	assegure('é maluco').
+
+felicia :-
+	assegure('é humano'),
+	assegure('é mau'),
+	assegure('é do sexo feminino').
+
+hortelino :-
+	assegure('é humano'),
+	assegure('é mau'),		
+	assegure('usa armas'),
+	assegure('fala errado').
+
+passaro_marciano :- 
+	assegure('é alienígena'),
+	assegure('é mau'),
+	assegure('tem bico').
