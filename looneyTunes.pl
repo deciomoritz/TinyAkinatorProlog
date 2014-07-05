@@ -6,7 +6,7 @@ carregar:-
 	['teste.txt'].
 
 go :- carregar,
-      write('Vou tentar adivinhar o nome do seu personagem da Looney Tunes!'),nl,nl,
+      write('Vou tentar adivinhar o nome do seu personagem da Looney Tunes! '),nl,nl,
       verifique(Personagem),
       write('Eu acho que é: '),
       write(Personagem),
