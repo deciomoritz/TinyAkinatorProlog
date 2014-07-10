@@ -2,8 +2,8 @@
 :-dynamic verifique/1.
 
 carregar:-
-	open('teste.txt', append, S), write(S,''),close(S),
-	['teste.txt'].
+	open('data.txt', append, S), write(S,''),close(S),
+	['data.txt'].
 
 go :- carregar,
       write('Vou tentar adivinhar o nome do seu personagem da Looney Tunes! '),nl,nl,
